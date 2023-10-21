@@ -1,7 +1,7 @@
 # Dependencies - An open-source modern Dependency Walker
 
 
-###This is a fork of Lucas G's [Dependencies](https://github.com/lucasg/Dependencies/) project. 
+### This is a fork of Lucas G's [Dependencies](https://github.com/lucasg/Dependencies/) project. 
 
 [![Build status](https://ci.appveyor.com/api/projects/status/wtr5v8ksndbkkqxg?svg=true)](https://ci.appveyor.com/project/latsa/dependencies)
 
