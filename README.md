@@ -1,11 +1,15 @@
 # Dependencies - An open-source modern Dependency Walker
-[![Build status](https://ci.appveyor.com/api/projects/status/wtr5v8ksndbkkqxg?svg=true)](https://ci.appveyor.com/project/lucasg/dependencies)
 
-### [Download here](https://github.com/lucasg/Dependencies/releases/download/v1.11.1/Dependencies_x64_Release.zip)
 
-#### [(If you're running an AV, use this download instead)](https://github.com/lucasg/Dependencies/releases/download/v1.11.1/Dependencies_x64_Release_.without.peview.exe.zip)
+###This is a fork of Lucas G's [Dependencies](https://github.com/lucasg/Dependencies/) project. 
 
-NB : due to [limitations on /clr compilation](https://msdn.microsoft.com/en-us/library/ffkc918h.aspx), `Dependencies` needs [Visual C++  Redistributable](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) installed to run properly.
+[![Build status](https://ci.appveyor.com/api/projects/status/wtr5v8ksndbkkqxg?svg=true)](https://ci.appveyor.com/project/latsa/dependencies)
+
+#### 1) Download [here](https://github.com/latsa/Dependencies/releases/download/1.11.1/Dependencies_x64_Release.zip). If you're running an AV, use [this](https://github.com/latsa/Dependencies/releases/download/1.11.1/Dependencies_x64_Release_.without.peview.exe.zip)  download instead. 
+
+#### 2) **Dependencies** depends on the [Visual C++  Redistributable](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) installed to run properly, due to some [restrictions on /clr compilation](https://msdn.microsoft.com/en-us/library/ffkc918h.aspx). You might want to download and install the Visual C++ Redistributable [here](https://aka.ms/vs/17/release/vc_redist.x64.exe).
+
+#### 3) Use **dependencies.reg** to add an **"Open with Dependencies"** context menu to **.exe**, **.dll**, and **.ocx** files. Before adding dependencies.reg, please adjust the path to **dependenciesgui.exe** within dependencies.reg so that it matches your installation.
 
 <p align="center">
 <img alt="Usage Exemple" src="screenshots/UsageExemple.gif"/>
