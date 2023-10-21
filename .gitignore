@@ -13,6 +13,8 @@ tests/
 *.pdb
 *.pch
 *.user
+*.lnk
+*.url
 
 _ReSharper.Caches/
 /**/x64-Debug
